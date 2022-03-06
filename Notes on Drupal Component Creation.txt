@@ -1,0 +1,53 @@
+Since it has been more than a couple years since I even looked at Drupal, I basically started from scratch with Drupal 9. I think Drupal 7 was the versionof the site I was asked to simply debug errors on and get running again back then. There was no real use/editing/customizing at all.
+
+I did some research on drupal 9 documentation and some searching to find a means to create what was asked for in the Test PDF. I found several pages and finally a decent YouTube Tutorial on what I was creating using the Paragraphs module.
+
+I have documented my efforts ion this text file and in my repo as asked to give a detailed account of what I went thur to achieve this result.
+
+TUTORIAL TO HELP ME: https://www.youtube.com/watch?v=ZSdIX-i394U
+
+====================================================================
+(3hrs)
+ - Setup Site in WAMP.
+ - Ran web based (localhost) installer.
+ - Configured site as Demo Food Site for content.
+ - Paragraphs installation via download and composer command.
+ - Started Setup of Field Types for new Profiles Component.
+ - Had to disable the PHP Xdebug zend extention and raise the memory allowance to 256. Still errors.
+ - Media Item was removed and no errors. Moving On.
+ - Allow view profile block content in Paragraph permissions to view by anonymous visitors.
+ - Way too much debug during all this.
+ - Continuing to watch tuts and try to get to the part where I can actually code custom component code to make the page content react as it needs to. Looking like I will need to re-install Drupal and start over as my drush commands are generating a.launcher file now. Ugh.
+
+====================================================================
+(1.5hrs)
+ - RESTART
+ - Installed Drupal 9 via composer.
+ - After geting things back to par with Paragraph Types and Content Types I get Fatal Error trying to create sub theme from radix....
+   - Fatal error: Uncaught Error: Class 'Drush\Config\Environment' not found in H:\ELYK\www\drupal\vendor\drush\drush\drush.php:62
+   - During comapnd for drush en components. Ugh.
+
+====================================================================
+(3hrs)
+ - RESTART
+ - Installed Drupal 9 via composer.
+ - Went first into sub theme for Drupal 9 (not radix) sucess with css file. Now we can continue.
+ - Back to Paragraphs and COntent Types setup/config.
+ - Installed Paragraphs, Entity Reference Revisions, Media Library, Media.
+ - Getting more errors trying to turn on Twig Debugging, applying path for druch commands to Drupal 9
+ - Finally have Twig debug to get hints on files/areas for component customization.
+ - Have the theme template function to add the class name and modify the html output of the paragraphs module.
+ - Using vanilla CSS for speed.
+ - Making screenshots of my config/setup in Drupal Admin.
+ - Screen Recording the video of the front page output upon completion. https://screenrec.com/share/A4wOcTSrij
+
+====================================================================
+Jimmy Fallon
+James Thomas Fallon is an American comedian, actor, television host, writer, and producer. He is known for his work in television as a cast member on Saturday Night Live and as the host of late-night talk show The Tonight Show Starring Jimmy Fallon and before that Late Night with Jimmy Fallon.
+
+Tariq Trotter
+Tariq Trotter (born October 3, 1973), better known as Black Thought, is an American rapper and the lead MC of the Philadelphia-based hip hop group the Roots, which he co-founded with drummer Questlove (Ahmir Thompson). Regarded as "one of the most skilled, incisive, and prolific rappers of his time" by Andy Kellman of AllMusic, he is widely lauded for his live performance skills, continuous multisyllabic rhyme schemes, complex lyricism, double entendres, and politically aware lyrics. With the Roots, he is a singer and rapper on The Tonight Show Starring Jimmy Fallon, frequently playing games with Fallon and his guests.
+
+Steve Higgins
+Steve Higgins (born August 13, 1963) is an American writer, producer, announcer, actor, and comedian. He most recently served as the announcer of The Tonight Show Starring Jimmy Fallon and as a writer and producer of Saturday Night Live. Prior to The Tonight Show, Higgins was also the announcer for Late Night with Jimmy Fallon from 2009 to 2014.
+
