@@ -1,1 +1,55 @@
 /* Custom Sub Theme CSS */
+
+.profile-set > .field > .field__item {
+  width: 30%;
+  float: left;
+  margin: 0%;
+}
+
+.profile-set .profile-body .field--name-field-profile-image {
+  margin-top: -20px;
+}
+
+.profile-set > .field > .field__item:first-of-type,
+.profile-set > .field > .field__item:last-of-type {
+  margin: 0 2.5%;
+}
+
+.profile-set .field--name-field-profile-image article .field__item {
+  width: 321px;
+  margin: 0 auto 15px;
+  overflow: hidden;
+  position: relative;
+  height: 210px;
+}
+
+.profile-set img.image-style-large {
+  left: 50%;
+  margin-left: -200px;
+  position: absolute;
+}
+
+.profile-set .field--name-field-profile-name {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.profile-set .field--name-field-profile-text {
+  visibility: hidden;
+  opacity: 0;
+  padding: 15px;
+}
+
+.profile-set > .field__items > .field__item:hover {
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.5);
+}
+
+.profile-set .profile-body:hover .field--name-field-profile-text {
+  visibility: visible;
+  opacity: 1;
+}
+.profile-set .profile-body:hover .field--name-field-profile-text {
+  transition: .5s;
+}

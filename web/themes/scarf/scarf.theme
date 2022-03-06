@@ -1,0 +1,5 @@
+<?php
+
+function scarf_preprocess_paragraph__profile_set(&$variables) {
+  $variables['attributes']['class'][] = 'profile-set';
+}
