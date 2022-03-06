@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/public_html/vendor/typo3/phar-stream-wrapper" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/public_html/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/public_html/vendor/drupal/core-composer-scaffold" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/public_html/vendor/masterminds/html5" />
+      <path value="$PROJECT_DIR$/public_html/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/public_html/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/public_html/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/public_html/vendor/drupal/core-vendor-hardening" />
+      <path value="$PROJECT_DIR$/public_html/vendor/drupal/core-project-message" />
+      <path value="$PROJECT_DIR$/public_html/vendor/pear/archive_tar" />
+      <path value="$PROJECT_DIR$/public_html/vendor/pear/console_getopt" />
+      <path value="$PROJECT_DIR$/public_html/vendor/laminas/laminas-stdlib" />
+      <path value="$PROJECT_DIR$/public_html/vendor/pear/pear_exception" />
+      <path value="$PROJECT_DIR$/public_html/vendor/pear/pear-core-minimal" />
+      <path value="$PROJECT_DIR$/public_html/vendor/laminas/laminas-feed" />
+      <path value="$PROJECT_DIR$/public_html/vendor/laminas/laminas-diactoros" />
+      <path value="$PROJECT_DIR$/public_html/vendor/laminas/laminas-escaper" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony-cmf/routing" />
+      <path value="$PROJECT_DIR$/public_html/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/public_html/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/public_html/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/public_html/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/public_html/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/public_html/vendor/composer" />
+      <path value="$PROJECT_DIR$/public_html/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/public_html/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/public_html/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/public_html/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/public_html/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/public_html/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/public_html/vendor/stack/builder" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.0">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+</project>
